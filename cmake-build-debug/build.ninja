@@ -41,37 +41,70 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/cinti/Documents/GitHub/Ejercicios-excepciones/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Ejercicios_excepciones
+# Object build statements for EXECUTABLE target Ejercicios_excepciones4
 
 
 #############################################
-# Order-only phony target for Ejercicios_excepciones
+# Order-only phony target for Ejercicios_excepciones4
 
-build cmake_object_order_depends_target_Ejercicios_excepciones: phony || CMakeFiles/Ejercicios_excepciones.dir
+build cmake_object_order_depends_target_Ejercicios_excepciones4: phony || CMakeFiles/Ejercicios_excepciones4.dir
 
-build CMakeFiles/Ejercicios_excepciones.dir/ejercicio4.cpp.obj: CXX_COMPILER__Ejercicios_excepciones_unscanned_Debug C$:/Users/cinti/Documents/GitHub/Ejercicios-excepciones/ejercicio4.cpp || cmake_object_order_depends_target_Ejercicios_excepciones
-  DEP_FILE = CMakeFiles\Ejercicios_excepciones.dir\ejercicio4.cpp.obj.d
+build CMakeFiles/Ejercicios_excepciones4.dir/ejercicio4.cpp.obj: CXX_COMPILER__Ejercicios_excepciones4_unscanned_Debug C$:/Users/cinti/Documents/GitHub/Ejercicios-excepciones/ejercicio4.cpp || cmake_object_order_depends_target_Ejercicios_excepciones4
+  DEP_FILE = CMakeFiles\Ejercicios_excepciones4.dir\ejercicio4.cpp.obj.d
   FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Ejercicios_excepciones.dir
-  OBJECT_FILE_DIR = CMakeFiles\Ejercicios_excepciones.dir
+  OBJECT_DIR = CMakeFiles\Ejercicios_excepciones4.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicios_excepciones4.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Ejercicios_excepciones
+# Link build statements for EXECUTABLE target Ejercicios_excepciones4
 
 
 #############################################
-# Link the executable Ejercicios_excepciones.exe
+# Link the executable Ejercicios_excepciones4.exe
 
-build Ejercicios_excepciones.exe: CXX_EXECUTABLE_LINKER__Ejercicios_excepciones_Debug CMakeFiles/Ejercicios_excepciones.dir/ejercicio4.cpp.obj
+build Ejercicios_excepciones4.exe: CXX_EXECUTABLE_LINKER__Ejercicios_excepciones4_Debug CMakeFiles/Ejercicios_excepciones4.dir/ejercicio4.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Ejercicios_excepciones.dir
+  OBJECT_DIR = CMakeFiles\Ejercicios_excepciones4.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Ejercicios_excepciones.exe
-  TARGET_IMPLIB = libEjercicios_excepciones.dll.a
-  TARGET_PDB = Ejercicios_excepciones.exe.dbg
+  TARGET_FILE = Ejercicios_excepciones4.exe
+  TARGET_IMPLIB = libEjercicios_excepciones4.dll.a
+  TARGET_PDB = Ejercicios_excepciones4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Ejercicios_excepciones5
+
+
+#############################################
+# Order-only phony target for Ejercicios_excepciones5
+
+build cmake_object_order_depends_target_Ejercicios_excepciones5: phony || CMakeFiles/Ejercicios_excepciones5.dir
+
+build CMakeFiles/Ejercicios_excepciones5.dir/ejercicio5.cpp.obj: CXX_COMPILER__Ejercicios_excepciones5_unscanned_Debug C$:/Users/cinti/Documents/GitHub/Ejercicios-excepciones/ejercicio5.cpp || cmake_object_order_depends_target_Ejercicios_excepciones5
+  DEP_FILE = CMakeFiles\Ejercicios_excepciones5.dir\ejercicio5.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ejercicios_excepciones5.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicios_excepciones5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ejercicios_excepciones5
+
+
+#############################################
+# Link the executable Ejercicios_excepciones5.exe
+
+build Ejercicios_excepciones5.exe: CXX_EXECUTABLE_LINKER__Ejercicios_excepciones5_Debug CMakeFiles/Ejercicios_excepciones5.dir/ejercicio5.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ejercicios_excepciones5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ejercicios_excepciones5.exe
+  TARGET_IMPLIB = libEjercicios_excepciones5.dll.a
+  TARGET_PDB = Ejercicios_excepciones5.exe.dbg
 
 
 #############################################
@@ -99,7 +132,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Ejercicios_excepciones: phony Ejercicios_excepciones.exe
+build Ejercicios_excepciones4: phony Ejercicios_excepciones4.exe
+
+build Ejercicios_excepciones5: phony Ejercicios_excepciones5.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +144,7 @@ build Ejercicios_excepciones: phony Ejercicios_excepciones.exe
 #############################################
 # Folder: C:/Users/cinti/Documents/GitHub/Ejercicios-excepciones/cmake-build-debug
 
-build all: phony Ejercicios_excepciones.exe
+build all: phony Ejercicios_excepciones4.exe Ejercicios_excepciones5.exe
 
 # =============================================================================
 # Built-in targets
