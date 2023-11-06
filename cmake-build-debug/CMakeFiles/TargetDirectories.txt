@@ -1,0 +1,4 @@
+C:/Users/cinti/Documents/GitHub/Ejercicios-excepciones/cmake-build-debug/CMakeFiles/Ejercicios_excepciones4.dir
+C:/Users/cinti/Documents/GitHub/Ejercicios-excepciones/cmake-build-debug/CMakeFiles/Ejercicios_excepciones5.dir
+C:/Users/cinti/Documents/GitHub/Ejercicios-excepciones/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/cinti/Documents/GitHub/Ejercicios-excepciones/cmake-build-debug/CMakeFiles/rebuild_cache.dir
